@@ -211,7 +211,7 @@ const Hero = ({ onOpenEstimate, lang }: { onOpenEstimate: () => void, lang: Lang
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=2000" 
+          src="header.jpg" 
           alt="Clean Windows" 
           className="w-full h-full object-cover opacity-20"
           referrerPolicy="no-referrer"
