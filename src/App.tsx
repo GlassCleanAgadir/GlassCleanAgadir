@@ -841,7 +841,7 @@ export default function App() {
               <div className="flex-1 relative">
                 <div className="absolute -top-10 -right-10 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&q=80&w=1000" 
+                  src="header.jpg" 
                   alt="تنظيف الزجاج باحترافية" 
                   className="rounded-[3rem] shadow-2xl relative z-10 w-full h-full object-cover"
                   referrerPolicy="no-referrer"
