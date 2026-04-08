@@ -322,10 +322,10 @@ const Services = ({ lang }: { lang: Language }) => {
   const images = [
     "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
-    "construct.jpg",
+    "./construct.jpg",
     "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=800",
-    "plan.jpg"
+    "./plan.jpg"
   ];
 
   return (
