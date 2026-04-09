@@ -677,7 +677,7 @@ const EstimateModal = ({ isOpen, onClose, lang }: { isOpen: boolean, onClose: ()
             </div>
 
             <div className="p-8">
-              <EstimateForm lang={lang} onSuccess={() => setTimeout(onClose, 2000)} />
+              <EstimateForm lang={lang} />
             </div>
           </motion.div>
         </div>
