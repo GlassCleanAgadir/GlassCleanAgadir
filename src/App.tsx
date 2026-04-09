@@ -56,12 +56,13 @@ const Navbar = ({
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">T</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-blue-900 font-bold text-lg leading-tight">{t.businessName}</span>
+                    <div className="flex items-center gap-3">
+            <img 
+              src="./logo.jpg" 
+              alt="Glass Clean Agadir Logo" 
+              className="w-10 h-10 object-contain rounded-lg" 
+            />
+            <span className="text-2xl font-black text-blue-900 tracking-tight">{t.businessName}</span>
               <span className="text-blue-600 font-medium text-sm tracking-widest uppercase">{t.city}</span>
             </div>
           </div>
