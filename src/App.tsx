@@ -24,8 +24,6 @@ import {
   MessageCircle,
   ChevronDown
 } from 'lucide-react';
-import { db, OperationType, handleFirestoreError } from './firebase';
-import { collection, addDoc, serverTimestamp, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
 import { cn } from './utils';
 import { askGemini } from './services/geminiService';
 import ReactMarkdown from 'react-markdown';
