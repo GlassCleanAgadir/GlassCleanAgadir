@@ -323,10 +323,10 @@ const Services = ({ lang }: { lang: Language }) => {
   const images = [
     "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&q=80&w=800",
+    "./construct.jpg",
     "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1521791136064-7986c2959213?auto=format&fit=crop&q=80&w=800"
+    "./plan.jpg"
   ];
 
   return (
@@ -862,7 +862,7 @@ export default function App() {
               <div className="flex-1 relative">
                 <div className="absolute -top-10 -right-10 w-64 h-64 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&q=80&w=1000" 
+                  src="./header.jpg" 
                   alt="تنظيف الزجاج باحترافية" 
                   className="rounded-[3rem] shadow-2xl relative z-10 w-full h-full object-cover"
                   referrerPolicy="no-referrer"
