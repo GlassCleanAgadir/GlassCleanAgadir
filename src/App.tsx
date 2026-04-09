@@ -377,14 +377,8 @@ const Reviews = ({ lang }: { lang: Language }) => {
   const t = translations[lang].reviews;
 
   useEffect(() => {
-    const q = query(collection(db, 'reviews'), orderBy('date', 'desc'), limit(10));
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const docs = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setReviews(docs);
-    }, (error) => {
-      handleFirestoreError(error, OperationType.LIST, 'reviews');
-    });
-    return () => unsubscribe();
+    // Firebase is disabled, using default reviews instead
+    setReviews([]);
   }, []);
 
   const defaultReviews = [
